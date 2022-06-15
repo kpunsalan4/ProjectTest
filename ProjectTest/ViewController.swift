@@ -8,7 +8,8 @@
 import UIKit
 import WebKit
 
-class ViewController: UIViewController {
+class SecondViewController: UIViewController {
+    
 
 
     

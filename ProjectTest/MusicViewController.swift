@@ -1,15 +1,13 @@
 //
-//  TableViewController.swift
+//  MusicViewController.swift
 //  ProjectTest
 //
 //  Created by Tiffany Wang on 6/15/22.
 //
 
 import UIKit
-import WebKit
 
-class TableViewController: UITableViewController {
-    
+class MusicViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
