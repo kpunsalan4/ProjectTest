@@ -226,16 +226,16 @@
             </objects>
             <point key="canvasLocation" x="888.40579710144937" y="751.33928571428567"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="fmG-ba-TFf">
             <objects>
-                <viewController id="1wF-hU-1SL" sceneMemberID="viewController">
+                <viewController id="1wF-hU-1SL" customClass="SecondViewController" customModule="ProjectTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Etq-hF-8UC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="luh-Fi-nXD">
-                                <rect key="frame" x="44" y="735" width="73" height="47"/>
+                                <rect key="frame" x="37" y="747" width="73" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.96317251930000003" green="0.76739275699999998" blue="0.52864056479999999" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -251,9 +251,11 @@
                                 <rect key="frame" x="10" y="97" width="394" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Down below you can find links to virtual tours and walkthroughs of art exhibits!">
+                                    <fragment content="Down below you can find links to virtual tours and walkthroughs of art exhibits from around the world!">
                                         <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="27" name="GillSans"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -266,6 +268,54 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNN-89-y3E">
+                                <rect key="frame" x="75" y="205" width="264" height="123"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="The Van Gogh Museum">
+                                    <fontDescription key="titleFontDescription" name="GillSans" family="Gill Sans" pointSize="28"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="vgButton:" destination="1wF-hU-1SL" eventType="touchUpInside" id="6y5-zo-KVz"/>
+                                    <action selector="vgButton:" destination="Rtv-Xt-2Na" eventType="touchUpInside" id="gcF-zg-NFR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aur-q7-Xno">
+                                <rect key="frame" x="77" y="345" width="260" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="The National Palace Museum">
+                                    <fontDescription key="titleFontDescription" name="GillSans" family="Gill Sans" pointSize="28"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="palaceButton:" destination="Rtv-Xt-2Na" eventType="touchUpInside" id="7FT-dY-nDV"/>
+                                    <action selector="palaceButton:" destination="1wF-hU-1SL" eventType="touchUpInside" id="Ded-DY-pEo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Fd-bZ-Fhf">
+                                <rect key="frame" x="51" y="598" width="327" height="122"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="The Westmoreland Museum of American Art ">
+                                    <fontDescription key="titleFontDescription" name="GillSans" family="Gill Sans" pointSize="28"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="westButton:" destination="1wF-hU-1SL" eventType="touchUpInside" id="gCc-A7-ABZ"/>
+                                    <action selector="westButton:" destination="Rtv-Xt-2Na" eventType="touchUpInside" id="nYi-Nz-al4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBA-PM-TFP">
+                                <rect key="frame" x="76" y="472" width="262" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="The Guggenheim Museum">
+                                    <fontDescription key="titleFontDescription" name="GillSans" family="Gill Sans" pointSize="28"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="gugButton:" destination="Rtv-Xt-2Na" eventType="touchUpInside" id="RIg-Wz-1dv"/>
+                                    <action selector="gugButton:" destination="1wF-hU-1SL" eventType="touchUpInside" id="pS5-y7-jpD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qBm-ZX-pHQ"/>
                         <color key="backgroundColor" red="0.91873782175322716" green="1" blue="0.89790182207886249" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -273,6 +323,7 @@
                     <navigationItem key="navigationItem" id="meH-jc-wXP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V9a-Z7-wFN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="Rtv-Xt-2Na" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="886.95652173913049" y="1414.9553571428571"/>
         </scene>
