@@ -108,22 +108,37 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ksj-kB-ZUU">
-                                <rect key="frame" x="116" y="261" width="186" height="122"/>
+                                <rect key="frame" x="20" y="269" width="151" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.96328419450000002" green="0.77699881790000003" blue="0.75685554740000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Lofi Beats">
-                                    <fontDescription key="titleFontDescription" name="GillSans" family="Gill Sans" pointSize="40"/>
+                                    <fontDescription key="titleFontDescription" name="GillSans" family="Gill Sans" pointSize="30"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="musicbutton1:" destination="8Ex-er-kdZ" eventType="touchUpInside" id="004-Ed-5w8"/>
                                     <action selector="musicbutton1:" destination="oSn-wl-I3D" eventType="touchUpInside" id="sFO-0R-Z5o"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NaK-Nv-wzb">
-                                <rect key="frame" x="116" y="540" width="186" height="113"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qzd-6u-Rjy">
+                                <rect key="frame" x="217" y="268" width="151" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.9609375" green="0.62371920547953374" blue="0.6219620972051475" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.96328419450000002" green="0.77699881790000003" blue="0.75685554740000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Lofi Beats">
+                                    <fontDescription key="titleFontDescription" name="GillSans" family="Gill Sans" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="lofibutton:" destination="8Ex-er-kdZ" eventType="touchUpInside" id="aCT-8U-eVV"/>
+                                    <action selector="musicbutton1:" destination="oSn-wl-I3D" eventType="touchUpInside" id="yvm-cf-Ah6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NaK-Nv-wzb">
+                                <rect key="frame" x="20" y="534" width="151" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.77195127460000001" blue="0.74516415479999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
@@ -136,26 +151,48 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="nature:" destination="8Ex-er-kdZ" eventType="touchUpInside" id="Dva-Hz-45Z"/>
                                     <action selector="nature:" destination="oSn-wl-I3D" eventType="touchUpInside" id="dSV-14-FwX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CqE-3R-z82">
-                                <rect key="frame" x="116" y="399" width="186" height="116"/>
+                                <rect key="frame" x="20" y="404" width="151" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.9609375" green="0.62371920550000004" blue="0.62196209719999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="1" green="0.77195127460000001" blue="0.74516415479999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Classical">
+                                        <fragment content="Classical ">
                                             <attributes>
-                                                <font key="NSFont" size="40" name="GillSans"/>
+                                                <font key="NSFont" size="31" name="GillSans"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="classical:" destination="oSn-wl-I3D" eventType="touchUpInside" id="2UK-Hl-mY0"/>
+                                    <action selector="classical:" destination="8Ex-er-kdZ" eventType="touchUpInside" id="Iau-wa-vEd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Afm-tz-Y5Q">
+                                <rect key="frame" x="217" y="404" width="151" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.77195127460000001" blue="0.74516415479999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Classical ">
+                                            <attributes>
+                                                <font key="NSFont" size="31" name="GillSans"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="classMusic:" destination="8Ex-er-kdZ" eventType="touchUpInside" id="zkq-5o-Ire"/>
+                                    <action selector="classical:" destination="oSn-wl-I3D" eventType="touchUpInside" id="RBt-Go-IeU"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4JM-X7-1tr">
@@ -173,21 +210,34 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yAd-UE-7hN">
-                                <rect key="frame" x="22" y="89" width="372" height="144"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HuO-KV-Zdd">
+                                <rect key="frame" x="20" y="89" width="374" height="138"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment>
-                                        <string key="content">Whether you’re on edge or feeling down, one song can lift your mood! When it comes to your mental health, listening to music can help you better rest and reduce stress. </string>
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="19" name="KohinoorBangla-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                                <string key="text">Whether you’re on edge or feeling down, one song can lift your mood! When it comes to your mental health, listening to music can help you better rest and reduce stress. </string>
+                                <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="19"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qsr-n6-OTn">
+                                <rect key="frame" x="217" y="534" width="151" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.77195127460000001" blue="0.74516415479999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Nature">
+                                            <attributes>
+                                                <font key="NSFont" size="40" name="GillSans"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="natMusic:" destination="8Ex-er-kdZ" eventType="touchUpInside" id="l4f-WI-rm6"/>
+                                    <action selector="nature:" destination="oSn-wl-I3D" eventType="touchUpInside" id="BIO-cI-cpL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dLl-Ch-Jgj"/>
                         <color key="backgroundColor" red="1" green="0.919552906894614" blue="0.81690519048928778" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -199,11 +249,11 @@
             </objects>
             <point key="canvasLocation" x="5.7971014492753632" y="743.97321428571422"/>
         </scene>
-        <!--View Controller-->
+        <!--Table View Controller-->
         <scene sceneID="Rdk-eW-vYY">
             <objects>
-                <viewController storyboardIdentifier="TableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JzH-sh-ed2" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="qNp-em-Ehr">
+                <viewController storyboardIdentifier="TableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JzH-sh-ed2" customClass="UITableViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qNp-em-Ehr" customClass="UITableView">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -425,10 +475,10 @@
             </objects>
             <point key="canvasLocation" x="886.95652173913049" y="1414.9553571428571"/>
         </scene>
-        <!--View Controller-->
+        <!--Third View Controller-->
         <scene sceneID="NXF-YL-0WG">
             <objects>
-                <viewController id="TKF-wG-fPm" sceneMemberID="viewController">
+                <viewController id="TKF-wG-fPm" customClass="ThirdViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fHs-Rq-1Uo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -447,11 +497,18 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UJX-Te-sd2">
-                                <rect key="frame" x="83" y="589" width="248" height="66"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UJX-Te-sd2">
+                                <rect key="frame" x="48" y="584" width="331" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="backgroundColor" red="0.8956881109" green="0.8710962189" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Today is a great day!">
+                                        <attributes>
+                                            <font key="NSFont" size="33" name="GillSans"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Begin typing here..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6fl-OB-ifW">
@@ -463,7 +520,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tVO-tE-lzs">
-                                <rect key="frame" x="171" y="703" width="90" height="59"/>
+                                <rect key="frame" x="171" y="704" width="90" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.7821384629" green="0.82111987259999997" blue="0.88825757569999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -506,12 +563,18 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="TKF-wG-fPm" eventType="touchUpInside" id="qsI-eR-tTW"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Em7-aF-daY"/>
                         <color key="backgroundColor" red="0.96328419450000002" green="0.8825144423126674" blue="0.88741605825898728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="UVZ-nl-uhc"/>
+                    <connections>
+                        <outlet property="label" destination="UJX-Te-sd2" id="xvD-ec-YMW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Meg-zt-KPh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -644,7 +707,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="yOo-eT-Ohc"/>
-        <segue reference="oPi-oY-o51"/>
+        <segue reference="bXg-4M-8Vf"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Art" width="316" height="312"/>

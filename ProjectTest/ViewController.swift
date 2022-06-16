@@ -49,23 +49,57 @@ class SecondViewController: UIViewController {
             // Do any additional setup after loading the view.
         }
         @IBAction func musicbutton1(_ sender: UIButton) {
-            let musicURL = URL(string: "https://open.spotify.com/playlist/37i9dQZF1DWWQRwui0ExPn?si=f3d8a3d13c2c4416")
+            let musicURL = URL(string: "https://open.spotify.com/embed/playlist/3LFIBdP7eZXJKqf3guepZ1")
             UIApplication.shared.open(musicURL!)
     
         }
         
         @IBAction func classical(_ sender: UIButton) {
-            let classicalURL = URL(string: "https://open.spotify.com/playlist/1h0CEZCm6IbFTbxThn6Xcs?si=2fb15665c0cd498f")
+            let classicalURL = URL(string: "https://open.spotify.com/embed/playlist/1CYNLCLR5ZH9tllxGPA4GS")
             UIApplication.shared.open(classicalURL!)
         }
         
         @IBAction func nature(_ sender: UIButton) {
-            let natureURL = URL(string: "https://open.spotify.com/playlist/37i9dQZF1DX4PP3DA4J0N8?si=47070d17f982494c")
+            let natureURL = URL(string: "https://open.spotify.com/embed/playlist/37i9dQZF1DX8ymr6UES7vc")
             UIApplication.shared.open(natureURL!)
             
         }
         
+        @IBAction func lofibutton(_ sender: UIButton) {
+            let lofiURL = URL(string: "https://open.spotify.com/embed/playlist/35xI4hSJ8MdO1xkXwsd56a")
+            UIApplication.shared.open(lofiURL!)
+        }
+        
+        @IBAction func classMusic(_ sender: Any) {
+            let classURL = URL(string: "https://open.spotify.com/embed/playlist/2O9qduhmfDQ2iL6t7DWu4j")
+            UIApplication.shared.open(classURL!)
+        }
+        
+        @IBAction func natMusic(_ sender: Any) {
+            let natURL = URL(string: "https://open.spotify.com/embed/album/0HauTZuaTGXIWykG7vn0xt")
+            UIApplication.shared.open(natURL!)
+        }
+        
         
 
+}
+
+class ThirdViewController: UIViewController {
+    
+    @IBOutlet weak var label: UILabel!
+    
+    let arrayOfQoutes = ["Be proud of yourself", "You are glowing!", "Be kind to yourself today", "I am doing my best", "I love myself", "I am grateful for everything that I have", "I believe in myself", "Everyday is a fresh start"]
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        
+        let randomNumber = Int.random(in: 0...(arrayOfQoutes.count-1))
+        label.text = arrayOfQoutes[randomNumber]
+        
+    }
+    
 }
 

@@ -17,6 +17,7 @@
 		3F89BCA02858F8B7005EF232 /* ProjectTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89BC9F2858F8B7005EF232 /* ProjectTestUITests.swift */; };
 		3F89BCA22858F8B7005EF232 /* ProjectTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89BCA12858F8B7005EF232 /* ProjectTestUITestsLaunchTests.swift */; };
 		912D0AAD2859912400F9CB92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912D0AAC2859912400F9CB92 /* Assets.xcassets */; };
+		912D0AF7285B78E400F9CB92 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912D0AF6285B78E400F9CB92 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		3F89BCA12858F8B7005EF232 /* ProjectTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		912D0AAC2859912400F9CB92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		912D0AF3285A9FCD00F9CB92 /* ProjectTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProjectTest.entitlements; sourceTree = "<group>"; };
+		912D0AF6285B78E400F9CB92 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				3F89BC7D2858F8B6005EF232 /* SceneDelegate.swift */,
 				3F89BC7F2858F8B6005EF232 /* ViewController.swift */,
 				3F89BC812858F8B6005EF232 /* Main.storyboard */,
+				912D0AF6285B78E400F9CB92 /* TableViewController.swift */,
 				912D0AAC2859912400F9CB92 /* Assets.xcassets */,
 				3F89BC892858F8B7005EF232 /* LaunchScreen.storyboard */,
 				3F89BC8C2858F8B7005EF232 /* Info.plist */,
@@ -266,6 +269,7 @@
 				3F89BC802858F8B6005EF232 /* ViewController.swift in Sources */,
 				3F89BC7C2858F8B5005EF232 /* AppDelegate.swift in Sources */,
 				3F89BC7E2858F8B6005EF232 /* SceneDelegate.swift in Sources */,
+				912D0AF7285B78E400F9CB92 /* TableViewController.swift in Sources */,
 				3F89BC862858F8B6005EF232 /* ProjectTest.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,6 +448,7 @@
 				CODE_SIGN_ENTITLEMENTS = ProjectTest/ProjectTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XSGTZ24MC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProjectTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -472,6 +477,7 @@
 				CODE_SIGN_ENTITLEMENTS = ProjectTest/ProjectTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XSGTZ24MC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProjectTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
