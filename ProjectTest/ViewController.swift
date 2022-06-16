@@ -102,4 +102,49 @@ class ThirdViewController: UIViewController {
     }
     
 }
+    
+    class TableViewController: UIViewController {
+        
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            
+        }
+        
+        @IBAction func coloring(_ sender: UIButton) {
+            let coloringURL = URL(string: "https://www.youtube.com/embed/YrDcW2-nhl8")
+            UIApplication.shared.open(coloringURL!)
+        }
+        
+        @IBAction func drawing(_ sender: UIButton) {
+            let drawingURL = URL(string: "https://www.youtube.com/watch?v=Bs336M8VH2w&t=28s")
+            UIApplication.shared.open(drawingURL!)
+        }
+        
+        
+        @IBAction func clay(_ sender: UIButton) {
+            let clayURL = URL(string: "https://www.youtube.com/embed/chBPWp85Y3k")
+            UIApplication.shared.open(clayURL!)
+        }
+        
+        @IBAction func embroidery(_ sender: UIButton) {
+            let embroideryURL = URL(string: "https://www.youtube.com/embed/2ATJuHN-C9A")
+            UIApplication.shared.open(embroideryURL!)
+        }
+        
+        @IBAction func crochet(_ sender: UIButton) {
+            let crochetURL = URL(string: "https://www.youtube.com/embed/GcOzdAzmtNM")
+            UIApplication.shared.open(crochetURL!)
+        }
+        
+        @IBAction func zentangle(_ sender: UIButton) {
+            let zentangleURL = URL(string: "https://www.youtube.com/embed/_yBGVONBOKU")
+            UIApplication.shared.open(zentangleURL!)
+        }
+        
+        
+    }
+    
+    
+
+
 
