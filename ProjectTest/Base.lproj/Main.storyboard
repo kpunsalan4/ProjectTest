@@ -252,8 +252,8 @@
         <!--Table View Controller-->
         <scene sceneID="Rdk-eW-vYY">
             <objects>
-                <viewController storyboardIdentifier="TableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JzH-sh-ed2" customClass="UITableViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="qNp-em-Ehr" customClass="UITableView">
+                <viewController storyboardIdentifier="TableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JzH-sh-ed2" customClass="TableViewController" customModule="ProjectTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qNp-em-Ehr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -327,6 +327,7 @@
                                     <backgroundConfiguration key="background" image="Screen Shot 2022-06-16 at 1.22.03 PM"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="coloring:" destination="JzH-sh-ed2" eventType="touchUpInside" id="AFy-Sb-e9f"/>
                                     <action selector="coloring:" destination="DDT-gR-21n" eventType="touchUpInside" id="oKJ-bG-rKS"/>
                                 </connections>
                             </button>
@@ -338,6 +339,7 @@
                                     <backgroundConfiguration key="background" image="Screen Shot 2022-06-16 at 1.31.22 PM"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="drawing:" destination="JzH-sh-ed2" eventType="touchUpInside" id="4YR-gm-9oZ"/>
                                     <action selector="drawing:" destination="DDT-gR-21n" eventType="touchUpInside" id="uL0-Wl-5nl"/>
                                 </connections>
                             </button>
@@ -349,6 +351,7 @@
                                     <backgroundConfiguration key="background" image="Screen Shot 2022-06-16 at 1.42.47 PM"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="clay:" destination="JzH-sh-ed2" eventType="touchUpInside" id="NEL-aS-8i5"/>
                                     <action selector="clay:" destination="DDT-gR-21n" eventType="touchUpInside" id="eZD-Ho-fav"/>
                                 </connections>
                             </button>
@@ -367,6 +370,7 @@
                                     <backgroundConfiguration key="background" image="Screen Shot 2022-06-16 at 1.48.58 PM"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="embroidery:" destination="JzH-sh-ed2" eventType="touchUpInside" id="GV0-cS-Czb"/>
                                     <action selector="embroidery:" destination="DDT-gR-21n" eventType="touchUpInside" id="fG1-5S-N8K"/>
                                 </connections>
                             </button>
@@ -385,6 +389,7 @@
                                     <backgroundConfiguration key="background" image="Screen Shot 2022-06-16 at 1.52.57 PM"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="crochet:" destination="JzH-sh-ed2" eventType="touchUpInside" id="Loc-UF-cqF"/>
                                     <action selector="crochet:" destination="DDT-gR-21n" eventType="touchUpInside" id="qFs-C9-Moe"/>
                                 </connections>
                             </button>
@@ -403,6 +408,7 @@
                                     <backgroundConfiguration key="background" image="Screen Shot 2022-06-16 at 1.56.56 PM"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="zentangle:" destination="JzH-sh-ed2" eventType="touchUpInside" id="2M6-OF-Rag"/>
                                     <action selector="zentangle:" destination="DDT-gR-21n" eventType="touchUpInside" id="Sc5-w1-g1D"/>
                                 </connections>
                             </button>
