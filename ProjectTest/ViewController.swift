@@ -84,14 +84,18 @@ class SecondViewController: UIViewController {
 
 }
 
-class ThirdViewController: UIViewController {
+class FourthViewController: UIViewController {
     
     @IBOutlet weak var label: UILabel!
+
+
+    let arrayOfQoutes = ["Be proud of yourself.", "You are glowing!", "Be kind to yourself today.", "I am doing my best.", "I love myself.", "I am grateful for everything that I have.", "I believe in myself.", "Everyday is a fresh start.", "I can handle this one step at a time.", "I am imperfect but I’m perfectly me.", "I deserve good things in life.", "I choose to be happy!"]
     
-    let arrayOfQoutes = ["Be proud of yourself", "You are glowing!", "Be kind to yourself today", "I am doing my best", "I love myself", "I am grateful for everything that I have", "I believe in myself", "Everyday is a fresh start"]
+    @IBOutlet weak var textView: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        textView.becomeFirstResponder()
     }
     
     @IBAction func buttonPressed(_ sender: UIButton) {
@@ -100,6 +104,8 @@ class ThirdViewController: UIViewController {
         label.text = arrayOfQoutes[randomNumber]
         
     }
+    
+    
     
 }
     
