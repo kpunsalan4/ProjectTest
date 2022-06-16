@@ -61,10 +61,10 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Music View Controller-->
         <scene sceneID="6ZN-Gn-OgT">
             <objects>
-                <viewController storyboardIdentifier="MusicViewController" id="8Ex-er-kdZ" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Music View Controller" title="Music View Controller" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8Ex-er-kdZ" customClass="MusicViewController" customModule="ProjectTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YzT-TF-p8g">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -89,15 +89,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HAV-l9-1k4">
-                                <rect key="frame" x="30" y="197" width="349" height="198"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sp6-KI-jmc">
                                 <rect key="frame" x="162" y="716" width="84" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -111,6 +102,57 @@
                                     <segue destination="krY-e5-EyC" kind="show" id="Pdb-6t-DmH"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ksj-kB-ZUU">
+                                <rect key="frame" x="116" y="212" width="186" height="122"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.9609375" green="0.62371920550000004" blue="0.62196209719999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Lofi Beats">
+                                    <fontDescription key="titleFontDescription" name="GillSans" family="Gill Sans" pointSize="40"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="musicbutton1:" destination="oSn-wl-I3D" eventType="touchUpInside" id="sFO-0R-Z5o"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NaK-Nv-wzb">
+                                <rect key="frame" x="116" y="540" width="186" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.9609375" green="0.62371920547953374" blue="0.6219620972051475" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Nature">
+                                            <attributes>
+                                                <font key="NSFont" size="40" name="GillSans"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="nature:" destination="oSn-wl-I3D" eventType="touchUpInside" id="dSV-14-FwX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CqE-3R-z82">
+                                <rect key="frame" x="116" y="381" width="186" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.9609375" green="0.62371920550000004" blue="0.62196209719999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Classical">
+                                            <attributes>
+                                                <font key="NSFont" size="40" name="GillSans"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="classical:" destination="oSn-wl-I3D" eventType="touchUpInside" id="2UK-Hl-mY0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dLl-Ch-Jgj"/>
                         <color key="backgroundColor" red="1" green="0.89814663072551348" blue="0.77271896363627413" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -118,6 +160,7 @@
                     <navigationItem key="navigationItem" id="k30-6q-98v"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iJE-Z6-sLz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="oSn-wl-I3D" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="5.7971014492753632" y="743.97321428571422"/>
         </scene>
@@ -247,20 +290,6 @@
                                     <segue destination="JzH-sh-ed2" kind="show" id="bXg-4M-8Vf"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFD-CI-Gw0">
-                                <rect key="frame" x="10" y="97" width="394" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Down below you can find links to virtual tours and walkthroughs of art exhibits from around the world!">
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="27" name="GillSans"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Art Museums" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lGo-A9-fDp">
                                 <rect key="frame" x="86" y="38" width="242" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -271,6 +300,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNN-89-y3E">
                                 <rect key="frame" x="75" y="205" width="264" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66193046470000005" green="0.82146951349999997" blue="0.95424952649999994" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="The Van Gogh Museum">
                                     <fontDescription key="titleFontDescription" name="GillSans" family="Gill Sans" pointSize="28"/>
@@ -283,6 +314,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aur-q7-Xno">
                                 <rect key="frame" x="77" y="345" width="260" height="109"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66193046470000005" green="0.82146951349999997" blue="0.95424952649999994" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="The National Palace Museum">
                                     <fontDescription key="titleFontDescription" name="GillSans" family="Gill Sans" pointSize="28"/>
@@ -295,6 +328,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Fd-bZ-Fhf">
                                 <rect key="frame" x="51" y="598" width="327" height="122"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66193046470000005" green="0.82146951349999997" blue="0.95424952649999994" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="The Westmoreland Museum of American Art ">
                                     <fontDescription key="titleFontDescription" name="GillSans" family="Gill Sans" pointSize="28"/>
@@ -307,6 +342,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBA-PM-TFP">
                                 <rect key="frame" x="76" y="472" width="262" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66193046470000005" green="0.82146951349999997" blue="0.95424952649999994" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="The Guggenheim Museum">
                                     <fontDescription key="titleFontDescription" name="GillSans" family="Gill Sans" pointSize="28"/>
@@ -316,6 +353,18 @@
                                     <action selector="gugButton:" destination="1wF-hU-1SL" eventType="touchUpInside" id="pS5-y7-jpD"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0mL-vi-Dzb">
+                                <rect key="frame" x="28" y="97" width="373" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Down below you can find links to virtual tours and walkthroughs of art exhibits from around the world!">
+                                        <attributes>
+                                            <font key="NSFont" size="19" name="GillSans"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qBm-ZX-pHQ"/>
                         <color key="backgroundColor" red="0.91873782175322716" green="1" blue="0.89790182207886249" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -365,7 +414,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Begin typing here..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6fl-OB-ifW">
-                                <rect key="frame" x="56" y="192" width="290" height="191"/>
+                                <rect key="frame" x="31" y="192" width="348" height="191"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -478,7 +527,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="yOo-eT-Ohc"/>
+        <segue reference="Pdb-6t-DmH"/>
         <segue reference="bXg-4M-8Vf"/>
     </inferredMetricsTieBreakers>
     <resources>
