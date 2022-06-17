@@ -84,26 +84,28 @@ class SecondViewController: UIViewController {
 
 }
 
-class FourthViewController: UIViewController {
     
-    @IBOutlet weak var label: UILabel!
 
 
-    let arrayOfQoutes = ["Be proud of yourself.", "You are glowing!", "Be kind to yourself today.", "I am doing my best.", "I love myself.", "I am grateful for everything that I have.", "I believe in myself.", "Everyday is a fresh start.", "I can handle this one step at a time.", "I am imperfect but I’m perfectly me.", "I deserve good things in life.", "I choose to be happy!"]
+class JournalViewController: UIViewController {
     
-    @IBOutlet weak var textView: UITextView!
+    @IBOutlet weak var positive: UILabel!
+    
+    let arrayOfQoutes1 = ["Be proud of yourself.", "You are glowing!", "Be kind to yourself today.", "I am doing my best.", "I love myself.", "I am grateful for everything that I have.", "I believe in myself.", "Everyday is a fresh start.", "I can handle this one step at a time.", "I am imperfect but I’m perfectly me.", "I deserve good things in life.", "I choose to be happy!", "Everyday slay.", "I will accomplish my goals."]
+    
+    
+    @IBOutlet weak var textBox: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        textView.becomeFirstResponder()
+        textBox.becomeFirstResponder()
     }
     
-    @IBAction func buttonPressed(_ sender: UIButton) {
-        
-        let randomNumber = Int.random(in: 0...(arrayOfQoutes.count-1))
-        label.text = arrayOfQoutes[randomNumber]
-        
+    @IBAction func positiveButton(_ sender: UIButton) {
+        let randomNumber = Int.random(in: 0...(arrayOfQoutes1.count-1))
+        positive.text = arrayOfQoutes1[randomNumber]
     }
+    
     
     
     
@@ -150,7 +152,50 @@ class FourthViewController: UIViewController {
         
     }
     
-    
-
+    class MeditationViewController: UIViewController {
+        
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            
+        }
+        
+        @IBAction func yoga(_ sender: UIButton) {
+            let yogaURL = URL(string: "https://www.youtube.com/watch?v=r7xsYgTeM2Q")
+            UIApplication.shared.open(yogaURL!)
+        }
+        
+        @IBAction func yo(_ sender: UIButton) {
+            let yoURL = URL(string: "https://www.youtube.com/watch?v=3_Q-yYfjeBM")
+            UIApplication.shared.open(yoURL!)
+        }
+        
+        
+        @IBAction func breath(_ sender: UIButton) {
+            let breathURL = URL(string: "https://www.youtube.com/watch?v=O-6f5wQXSu8")
+        UIApplication.shared.open(breathURL!)
+        }
+        
+        
+        @IBAction func mindful(_ sender: UIButton) {
+        let mindfulURL = URL(string: "https://www.youtube.com/watch?v=UY4BXMly7a4")
+        UIApplication.shared.open(mindfulURL!)
+            
+        }
+        
+        @IBAction func bre(_ sender: UIButton) {
+            let breURL = URL(string: "https://www.youtube.com/watch?v=cEqZthCaMpo&t=6s")
+            UIApplication.shared.open(breURL!)
+        }
+        
+        
+        @IBAction func calm(_ sender: Any) {
+            let calmURL = URL(string: "https://www.youtube.com/watch?v=aNXKjGFUlMs")
+            UIApplication.shared.open(calmURL!)
+            
+        }
+        
+        
+        
+    }
 
 
