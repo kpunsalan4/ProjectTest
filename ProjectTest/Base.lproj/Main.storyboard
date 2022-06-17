@@ -402,151 +402,6 @@
             </objects>
             <point key="canvasLocation" x="888.40579710144937" y="751.33928571428567"/>
         </scene>
-        <!--Meditation View Controller-->
-        <scene sceneID="yK6-5Y-jiK">
-            <objects>
-                <viewController id="S5S-DZ-6b4" customClass="MeditationViewController" customModule="ProjectTest" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="hwv-PV-mBX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mindful Activites" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QUB-fd-TQ3">
-                                <rect key="frame" x="0.0" y="66" width="414" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.86290163797883901" green="0.92423627374759043" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="47"/>
-                                <color key="textColor" red="0.40365407292885702" green="0.46156211268080805" blue="0.33808135877858353" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gb2-5d-ahJ">
-                                <rect key="frame" x="20" y="234" width="179" height="145"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <backgroundConfiguration key="background" image="Screen Shot 2022-06-16 at 8.25.39 PM"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="yoga:" destination="S5S-DZ-6b4" eventType="touchUpInside" id="2hf-gP-xq3"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N2q-gg-NS4">
-                                <rect key="frame" x="211" y="437" width="179" height="134"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <backgroundConfiguration key="background" image="Screen Shot 2022-06-16 at 8.46.48 PM"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="mindful:" destination="S5S-DZ-6b4" eventType="touchUpInside" id="Ahy-oI-BJE"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t0V-P0-kuA">
-                                <rect key="frame" x="20" y="437" width="179" height="134"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <backgroundConfiguration key="background" image="Screen Shot 2022-06-16 at 8.44.54 PM"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="breath:" destination="S5S-DZ-6b4" eventType="touchUpInside" id="zZy-C4-aRR"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EFE-pb-dP9">
-                                <rect key="frame" x="211" y="234" width="183" height="145"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <backgroundConfiguration key="background" image="Screen Shot 2022-06-16 at 8.25.20 PM"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="yoga2:" destination="S5S-DZ-6b4" eventType="touchUpInside" id="3JQ-EX-xs5"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I0t-QJ-qJn">
-                                <rect key="frame" x="20" y="629" width="179" height="116"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <backgroundConfiguration key="background" image="Screen Shot 2022-06-16 at 8.39.18 PM"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="bre:" destination="S5S-DZ-6b4" eventType="touchUpInside" id="Jsd-8f-kty"/>
-                                    <action selector="breath:" destination="S5S-DZ-6b4" eventType="touchUpInside" id="MgS-nf-Yze"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="spK-Vp-ehF">
-                                <rect key="frame" x="211" y="628" width="179" height="117"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <backgroundConfiguration key="background" image="Screen Shot 2022-06-16 at 8.42.53 PM"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="calm:" destination="S5S-DZ-6b4" eventType="touchUpInside" id="SJL-Nw-EFH"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HhE-tN-0w7">
-                                <rect key="frame" x="164" y="768" width="87" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.7821384629" green="0.82111987259999997" blue="0.88825757569999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home">
-                                    <fontDescription key="titleFontDescription" name="GillSans" family="Gill Sans" pointSize="21"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="krY-e5-EyC" kind="show" id="Pm8-Bp-ouF"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xrq-d9-sks">
-                                <rect key="frame" x="164" y="392" width="118" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Meditation">
-                                        <attributes>
-                                            <font key="NSFont" size="19" name="KohinoorDevanagari-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OxU-Br-uC4">
-                                <rect key="frame" x="192" y="189" width="117" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Yoga">
-                                        <attributes>
-                                            <font key="NSFont" size="19" name="KohinoorDevanagari-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="syw-jx-oQx">
-                                <rect key="frame" x="121" y="583" width="204" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Breathing Exercises">
-                                        <attributes>
-                                            <font key="NSFont" size="19" name="KohinoorDevanagari-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="n6J-1i-uPg"/>
-                        <color key="backgroundColor" red="0.91954401560189714" green="0.92621527777777779" blue="0.77158121818820646" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="yRT-OD-cz3"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BpK-pC-WbM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1712" y="814"/>
-        </scene>
         <!--Second View Controller-->
         <scene sceneID="fmG-ba-TFf">
             <objects>
@@ -632,16 +487,11 @@
                                     <action selector="gugButton:" destination="1wF-hU-1SL" eventType="touchUpInside" id="pS5-y7-jpD"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0mL-vi-Dzb">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Down below you can find links to virtual tours and walkthroughs of art exhibits from around the world!" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0mL-vi-Dzb">
                                 <rect key="frame" x="28" y="105" width="373" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Down below you can find links to virtual tours and walkthroughs of art exhibits from around the world!">
-                                        <attributes>
-                                            <font key="NSFont" size="19" name="KohinoorBangla-Regular"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="19"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -672,7 +522,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Music" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CzN-YS-SEY">
-                                <rect key="frame" x="52" y="382" width="136" height="71"/>
+                                <rect key="frame" x="45" y="455" width="136" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.98702257869999999" green="0.91970664260000001" blue="0.81566900009999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="45"/>
@@ -680,7 +530,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Art" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2t3-LB-iw7">
-                                <rect key="frame" x="211" y="239" width="123" height="69"/>
+                                <rect key="frame" x="211" y="280" width="146" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.94940334559999995" green="0.93193799259999999" blue="0.99608665699999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="45"/>
@@ -701,7 +551,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bul-qa-9sN">
-                                <rect key="frame" x="52" y="210" width="125" height="126"/>
+                                <rect key="frame" x="42" y="237" width="139" height="155"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
@@ -712,7 +562,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FZT-a3-jh7">
-                                <rect key="frame" x="221" y="353" width="123" height="129"/>
+                                <rect key="frame" x="211" y="417" width="146" height="147"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
@@ -723,7 +573,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Writing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Too-HN-DUe">
-                                <rect key="frame" x="211" y="510" width="161" height="70"/>
+                                <rect key="frame" x="211" y="623" width="161" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.96411627529999999" green="0.88231521840000005" blue="0.88627344370000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="45"/>
@@ -731,7 +581,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bX1-7O-hlM">
-                                <rect key="frame" x="53" y="495" width="135" height="130"/>
+                                <rect key="frame" x="46" y="588" width="135" height="141"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
@@ -741,25 +591,6 @@
                                     <segue destination="uLt-bS-tYr" kind="show" id="Xho-4K-AvN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2dB-di-1o5">
-                                <rect key="frame" x="221" y="641" width="139" height="131"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <backgroundConfiguration key="background" image="Screen Shot 2022-06-16 at 9.00.14 PM"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="S5S-DZ-6b4" kind="show" id="St1-mT-zXr"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mindfulness" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xmP-kx-4xA">
-                                <rect key="frame" x="34" y="661" width="161" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.84635786326225781" green="0.89625408478974689" blue="0.96411627529999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="29"/>
-                                <color key="textColor" red="0.38319736059999998" green="0.38319736059999998" blue="0.38319736059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="RUy-hN-ISZ"/>
                         <color key="backgroundColor" red="0.92501586680000003" green="0.91877871749999995" blue="0.86273688079999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -853,8 +684,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Pm8-Bp-ouF"/>
-        <segue reference="oPi-oY-o51"/>
+        <segue reference="94V-3h-Jlw"/>
+        <segue reference="Pdb-6t-DmH"/>
+        <segue reference="bXg-4M-8Vf"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Art" width="316" height="312"/>
@@ -872,13 +704,6 @@
         <image name="Screen Shot 2022-06-16 at 7.30.17 PM" width="462" height="460"/>
         <image name="Screen Shot 2022-06-16 at 7.35.39 PM" width="466" height="464"/>
         <image name="Screen Shot 2022-06-16 at 7.36.01 PM" width="462" height="446"/>
-        <image name="Screen Shot 2022-06-16 at 8.25.20 PM" width="420" height="236"/>
-        <image name="Screen Shot 2022-06-16 at 8.25.39 PM" width="416" height="228"/>
-        <image name="Screen Shot 2022-06-16 at 8.39.18 PM" width="712" height="392"/>
-        <image name="Screen Shot 2022-06-16 at 8.42.53 PM" width="716" height="400"/>
-        <image name="Screen Shot 2022-06-16 at 8.44.54 PM" width="638" height="390"/>
-        <image name="Screen Shot 2022-06-16 at 8.46.48 PM" width="646" height="398"/>
-        <image name="Screen Shot 2022-06-16 at 9.00.14 PM" width="384" height="378"/>
         <image name="arTherapyLogo" width="1760" height="1240"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
